@@ -12,6 +12,8 @@
 		BE011DBC1D8EFD6A003BA75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE011DBA1D8EFD6A003BA75B /* Main.storyboard */; };
 		BE011DBE1D8EFD6A003BA75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE011DBD1D8EFD6A003BA75B /* Assets.xcassets */; };
 		BE011DC11D8EFD6A003BA75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE011DBF1D8EFD6A003BA75B /* LaunchScreen.storyboard */; };
+		BE011DC91D8F6A03003BA75B /* masaPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE011DC81D8F6A03003BA75B /* masaPizza.swift */; };
+		BE5461281D8F751400B6603F /* TipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5461271D8F751400B6603F /* TipoQueso.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BE011DBD1D8EFD6A003BA75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE011DC01D8EFD6A003BA75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE011DC21D8EFD6A003BA75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE011DC81D8F6A03003BA75B /* masaPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = masaPizza.swift; path = pickerview/masaPizza.swift; sourceTree = "<group>"; };
+		BE5461271D8F751400B6603F /* TipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipoQueso.swift; path = pickerview/TipoQueso.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				BE011DB61D8EFD6A003BA75B /* AppDelegate.swift */,
 				BE011DB81D8EFD6A003BA75B /* ViewController.swift */,
+				BE011DC81D8F6A03003BA75B /* masaPizza.swift */,
 				BE011DBA1D8EFD6A003BA75B /* Main.storyboard */,
+				BE5461271D8F751400B6603F /* TipoQueso.swift */,
 				BE011DBD1D8EFD6A003BA75B /* Assets.xcassets */,
 				BE011DBF1D8EFD6A003BA75B /* LaunchScreen.storyboard */,
 				BE011DC21D8EFD6A003BA75B /* Info.plist */,
@@ -90,6 +96,10 @@
 		BE011DAB1D8EFD6A003BA75B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					" dos",
+					uno,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Pablo Contreras";
@@ -136,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE011DB91D8EFD6A003BA75B /* ViewController.swift in Sources */,
+				BE011DC91D8F6A03003BA75B /* masaPizza.swift in Sources */,
 				BE011DB71D8EFD6A003BA75B /* AppDelegate.swift in Sources */,
+				BE5461281D8F751400B6603F /* TipoQueso.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				BE011DC71D8EFD6A003BA75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
